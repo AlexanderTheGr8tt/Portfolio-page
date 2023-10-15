@@ -1,0 +1,20 @@
+{
+  "cSpell.words": [
+    "Aleksander",
+    "dosis",
+    "laila",
+    "Malecki",
+    "Małecki",
+    "muli",
+    "nextui"
+  ],
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.addMissingImports": true
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
+}
