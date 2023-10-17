@@ -7,9 +7,7 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 export function sendEmail(data: FormData) {
-  const apiEndpoint = "/api/email";
-
-  fetch(apiEndpoint, {
+  fetch("/api/email", {
     method: "POST",
     body: JSON.stringify(data),
   })
