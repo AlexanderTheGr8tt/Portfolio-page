@@ -21,7 +21,6 @@ export async function POST(request: NextRequest) {
       pass: process.env.MY_APP_PASS,
     },
   });
-  
 
   const mailOptions: Mail.Options = {
     from: process.env.MY_GMAIL,
@@ -30,7 +29,9 @@ export async function POST(request: NextRequest) {
     subject: `${subject}, message from ${name}  (${email})`,
 
     text: `${message}
-    , message from ${name}  (${email})
+
+    
+     ${name}  (${email})
     `,
   };
 

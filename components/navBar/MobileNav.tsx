@@ -23,7 +23,7 @@ const MobileNav = () => {
     const options = {
       root: null,
       rootMargin: "0px",
-      threshold: 0.5,
+      threshold: 0.1,
     };
 
     const observer = new IntersectionObserver((entries) => {
@@ -48,12 +48,17 @@ const MobileNav = () => {
     <div className="sm:hidden">
       <Sheet>
         <SheetTrigger asChild>
-          <Image
+          <div className="space-y-2">
+            <span className="block w-8 h-0.5 dark:bg-primary bg-secondary"></span>
+            <span className="block w-8 h-0.5 dark:bg-primary bg-secondary"></span>
+            <span className="block w-5 h-0.5 dark:bg-primary bg-secondary"></span>
+          </div>
+          {/* <Image
             src="/assets/icons/hamburger.svg"
             width={36}
             height={36}
-            alt="Menu"
-          />
+            alt="Menu"Name
+          /> */}
         </SheetTrigger>
         <SheetContent side={"top"} className="border-none fixed top-[-50px]">
           <SheetHeader>

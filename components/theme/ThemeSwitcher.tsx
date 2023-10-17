@@ -1,11 +1,9 @@
-// app/components/ThemeSwitcher.tsx
 "use client";
 
 import { useTheme } from "next-themes";
 import { useEffect, useState } from "react";
-import { MoonIcon } from "./MoonIcon";
-import { SunIcon } from "./SunIcon";
-import { Button } from "../ui/button";
+
+import { Moon, Sun } from "lucide-react";
 
 export function ThemeSwitcher() {
   const [mounted, setMounted] = useState(false);
@@ -18,25 +16,11 @@ export function ThemeSwitcher() {
   if (!mounted) return null;
 
   return (
-    <div>
+    <div className="cursor-pointer">
       {theme === "light" ? (
-        <Button
-          className=" text-[#292524] border border-none"
-          variant="outline"
-          size="icon"
-          onClick={() => setTheme("dark")}
-        >
-          <MoonIcon />
-        </Button>
+        <Moon color="#292524" onClick={() => setTheme("dark")} size={30} />
       ) : (
-        <Button
-          className=" text-[#f5f5f4] border border-none"
-          variant="outline"
-          size="icon"
-          onClick={() => setTheme("light")}
-        >
-          <SunIcon />
-        </Button>
+        <Sun color="#f5f5f4" onClick={() => setTheme("light")} size={30} />
       )}
     </div>
   );

@@ -7,7 +7,7 @@ import Animated from "./shared/Animated";
 
 const Projects = () => {
   return (
-    <section id="projects" className="flex flex-col items-center pt-20 ">
+    <section id="projects" className="flex flex-col items-center  pt-20 ">
       <h2 className="text-center font-dosis  text-4xl md:text-5xl py-8">
         <Animated
           id="heroTitle"

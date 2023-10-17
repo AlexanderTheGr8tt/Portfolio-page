@@ -30,8 +30,8 @@ const config: Config = {
           "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
       },
       boxShadow: {
-        white: "0 0 10px rgba(255, 255, 255, 0.5)",
-        black: "0 0 10px rgba(0, 0, 0, 0.5)",
+        white: "0px 0px 5px rgba(0,0,0,0.07)",
+        black: "0px 0px 5px rgba(0,0,0,0.04)",
       },
     },
   },
