@@ -30,7 +30,6 @@ const Navbar = () => {
 
             <ThemeSwitcher />
             <MobileNav />
-            {/* <DropdownMenuDemo /> */}
           </div>
         </div>
       </div>

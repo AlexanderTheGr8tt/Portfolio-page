@@ -37,7 +37,7 @@ export function DropdownMenuDemo() {
       <DropdownMenuTrigger asChild>
         <Button variant="outline">Open</Button>
       </DropdownMenuTrigger>
-      <DropdownMenuContent className="bg-primary dark:bg-secondary w-[500px] h-[500px] flex flex-col justify-center ">
+      <DropdownMenuContent className="bg-primary dark:bg-secondary w-[500px] h-[500px] flex flex-col justify-center items-center">
         <DropdownMenuLabel>Menu</DropdownMenuLabel>
         <DropdownMenuSeparator />
         <DropdownMenuGroup>
