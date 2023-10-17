@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import Animated from "./shared/Animated";
-import ScrollToNextSection from "./shared/ScrollToTheNextSection";
 
 const Hero = () => {
   return (

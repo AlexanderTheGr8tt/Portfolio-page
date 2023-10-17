@@ -1,9 +1,7 @@
 "use client";
-import Image from "next/image";
+
 import React, { useEffect, useState } from "react";
-
 import { navLinks } from "../../constants/constant";
-
 import {
   Sheet,
   SheetClose,

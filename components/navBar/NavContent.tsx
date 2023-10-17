@@ -1,11 +1,8 @@
 "use client";
 
 import { navLinks } from "@/constants/constant";
-import Image from "next/image";
 import Link from "next/link";
 import React, { useEffect, useState } from "react";
-import { Sheet, SheetClose } from "../ui/sheet";
-import { Button } from "../ui/button";
 
 const NavContent = () => {
   const [activeSection, setActiveSection] = useState<string | null>(null);

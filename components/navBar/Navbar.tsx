@@ -1,11 +1,8 @@
 import Link from "next/link";
 import { ThemeSwitcher } from "../theme/ThemeSwitcher";
-
 import React from "react";
-
 import MobileNav from "./MobileNav";
 import NavContent from "./NavContent";
-import { DropdownMenuDemo } from "../DropdownMenu";
 import Image from "next/image";
 
 const Navbar = () => {

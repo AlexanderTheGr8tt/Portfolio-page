@@ -1,8 +1,5 @@
 import React from "react";
-
 import ProjectCard from "./shared/ProjectCard";
-import Link from "next/link";
-import Image from "next/image";
 import Animated from "./shared/Animated";
 
 const Projects = () => {
