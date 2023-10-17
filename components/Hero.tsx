@@ -25,7 +25,7 @@ const Hero = () => {
         </div>
 
         <div className="flex flex-col gap-10 md:gap-14 lg:gap-20 max-lg:max-w-[400px]">
-          <h1 className="text-center font-dosis text-4xl md:text-[44px] lg:text-6xl pt-12">
+          <h1 className="text-center font-dosis text-4xl md:text-[44px] lg:text-[55px] pt-12">
             Hello! I'm{" "}
             <Animated
               id="heroTitle"
@@ -36,7 +36,7 @@ const Hero = () => {
             />
           </h1>
 
-          <p className="font-laila text-center px-4 leading-8 lg:leading-10 text-lg md:text-[21px] lg:text-3xl max-w-[453px] md:max-w-xl">
+          <p className="font-laila text-center px-4 leading-8 lg:leading-10 text-lg md:text-[21px] lg:text-2xl max-w-[453px] md:max-w-xl">
             <Animated
               id="heroTitle"
               text="Web Developer "

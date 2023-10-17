@@ -9,10 +9,9 @@ const About = () => {
       className="w-full min-h-screen flex justify-center my-10"
       id="about"
     >
-      {/* <div className="lg:w-full flex flex-col md:flex-row-reverse justify-center items-center   lg:gap-16 mx-5 md:mx-8"> */}
-      <div className="lg:w-full flex flex-col md:flex-row-reverse justify-center items-center mx-auto ">
-        <div className="flex flex-col md:w-30 md:pb-20">
-          <h2 className="text-center font-dosis text-4xl md:text-5xl  pb-12">
+      <div className="lg:w-full flex flex-col md:flex-row-reverse justify-center items-center mx-auto lg:gap-10">
+        <div className="flex flex-col max-md:max-w-[500px] md:gap-16">
+          <h2 className="text-center font-dosis text-4xl md:text-5xl max-md:pb-12 ">
             <Animated
               id="aboutContact"
               text="About Me"
@@ -22,14 +21,14 @@ const About = () => {
             />
           </h2>
 
-          <div className="flex flex-col px-3 ">
-            <p className="font-laila leading-8 md:leading-10 text-lg md:text-2xl max-w-lg md:max-w-xl pb-5">
+          <div className="flex flex-col px-3 md:gap-5">
+            <p className="font-laila max-md:leading-8 md:leading-9 lg:leading-10  text-lg md:text-[22px] lg:text-2xl max-w-lg md:max-w-xl pb-5">
               Web developer, with extensive knowledge and years of experience,
               working in web technologies and Ui / Ux design, delivering quality
               work.
             </p>
 
-            <div className="font-mulish leading-7 md:leading-10 text-base md:text-xl max-w-[453px] ">
+            <div className="font-mulish leading-7 md:leading-10 text-base md:text-xl md:max-w-xl">
               <p className="text-primary">
                 <Animated
                   id="aboutContact"
@@ -48,13 +47,13 @@ const About = () => {
           </div>
         </div>
 
-        <div className="flex md:flex-col-reverse justify-center gap-5 sm:gap-16 pt-5 px-3 w-full md:w-auto ">
-          <div className="font-laila flex flex-col md:flex-row justify-center md:justify-between gap-14 md:gap-0 w-28 md:w-full  ">
+        <div className="flex md:flex-col-reverse justify-center gap-5 sm:gap-16 px-3 w-full md:w-auto ">
+          <div className="font-laila flex flex-col md:flex-row justify-center  gap-14 md:gap-10 w-28 md:w-full  ">
             <Link href="#contact">
               <Animated
                 id="aboutContact"
                 text="Contact Me!"
-                style="text-base md:text-xl"
+                style="text-base md:text-lg"
                 effectType="box"
                 color="#8B41E0"
               />
@@ -63,7 +62,7 @@ const About = () => {
               <Animated
                 id="aboutContact"
                 text="My GitHub!"
-                style="text-base md:text-xl"
+                style="text-base md:text-lg"
                 effectType="box"
                 color="#8B41E0"
               />

@@ -13,6 +13,7 @@ import {
   SheetTrigger,
 } from "@/components/ui/sheet";
 import Link from "next/link";
+import { X } from "lucide-react";
 
 const MobileNav = () => {
   const [activeSection, setActiveSection] = useState<string | null>(null);
@@ -53,12 +54,6 @@ const MobileNav = () => {
             <span className="block w-8 h-0.5 dark:bg-primary bg-secondary"></span>
             <span className="block w-5 h-0.5 dark:bg-primary bg-secondary"></span>
           </div>
-          {/* <Image
-            src="/assets/icons/hamburger.svg"
-            width={36}
-            height={36}
-            alt="Menu"Name
-          /> */}
         </SheetTrigger>
         <SheetContent side={"top"} className="border-none fixed top-[-50px]">
           <SheetHeader>
@@ -89,12 +84,7 @@ const MobileNav = () => {
                 </SheetClose>
               ))}
 
-              <Image
-                src="/assets/icons/close-line.svg"
-                width={40}
-                height={40}
-                alt="close menu"
-              />
+              <X size={40} />
             </div>
           </SheetClose>
         </SheetContent>

@@ -25,14 +25,10 @@ export async function POST(request: NextRequest) {
   const mailOptions: Mail.Options = {
     from: process.env.MY_GMAIL,
     to: process.env.MY_HOTMAIL,
-    // cc: email, (uncomment this line if you want to send a copy to the sender)
-    subject: `${subject}, message from ${name}  (${email})`,
+    // cc: email,
+    subject: `Message from ${name}  (${email})`,
 
-    text: `${message}
-
-    
-     ${name}  (${email})
-    `,
+    text: `${message}`,
   };
 
   const sendMailPromise = () =>

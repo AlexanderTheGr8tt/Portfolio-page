@@ -55,15 +55,6 @@ const Projects = () => {
           github="https://github.com/AlexanderTheGr8tt/OpenAI_Summarizer"
         />
       </div>
-      <Link href="#contact" className="flex justify-end py-20">
-        <Image
-          src="assets/icons/arrow-down-s-line.svg"
-          alt="arrow down"
-          width={40}
-          height={40}
-          className="bg-secondary dark:bg-primary rounded-xl"
-        />
-      </Link>
     </section>
   );
 };
