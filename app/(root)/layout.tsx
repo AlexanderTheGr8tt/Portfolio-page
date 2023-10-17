@@ -1,7 +1,7 @@
 import "./globals.css";
 import type { Metadata } from "next";
 import { Dosis, Laila, Mulish } from "next/font/google";
-import { ThemeProvider } from "../providers/ThemeProvider";
+import { ThemeProvider } from "../../providers/ThemeProvider";
 
 const dosis = Dosis({
   subsets: ["latin"],
