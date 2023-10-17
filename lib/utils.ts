@@ -6,7 +6,7 @@ export function cn(...inputs: ClassValue[]) {
   return twMerge(clsx(inputs));
 }
 
-export function sendEmail(data: FormData) {
+export async function sendEmail(data: FormData) {
   fetch("/api/email", {
     method: "POST",
     body: JSON.stringify(data),
