@@ -7,15 +7,25 @@ export function cn(...inputs: ClassValue[]) {
 }
 
 export async function sendEmail(data: FormData) {
-  fetch("/api/email", {
-    method: "POST",
-    body: JSON.stringify(data),
-  })
-    .then((res) => res.json())
-    .then((response) => {
-      console.log(response.message);
-    })
-    .catch((err) => {
-      console.log(err);
+  try {
+    const response = await fetch("/api/email", {
+      method: "POST",
+      body: JSON.stringify(data),
+      headers: {
+        "Content-Type": "application/json",
+      },
     });
+
+    if (!response.ok) {
+      // Handle non-2xx status codes
+      const errorResponse = await response.json();
+      throw new Error(errorResponse.message);
+    }
+
+    const responseData = await response.json();
+    // console.log(responseData.message);
+  } catch (error) {
+    console.error("Error sending email:", error);
+    throw error; // Re-throw the error to indicate failure
+  }
 }

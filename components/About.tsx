@@ -53,7 +53,7 @@ const About = () => {
               <Animated
                 id="aboutContact"
                 text="Contact Me!"
-                style="text-base md:text-lg"
+                style="text-base md:text-lg hover:text-[#b087de]"
                 effectType="box"
                 color="#8B41E0"
               />
@@ -62,7 +62,7 @@ const About = () => {
               <Animated
                 id="aboutContact"
                 text="My GitHub!"
-                style="text-base md:text-lg"
+                style="text-base md:text-lg hover:text-[#b087de]"
                 effectType="box"
                 color="#8B41E0"
               />
