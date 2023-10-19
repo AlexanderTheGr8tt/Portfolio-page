@@ -10,7 +10,7 @@ const Contact = () => {
       className="flex min-w-[300px] md:w-[500px] min-h-screen flex-col items-center justify-center  gap-10 relative"
       id="contact"
     >
-      <h3 className="text-center font-dosis text-4xl md:text-5xl max-md:pb-12">
+      <h3 className="text-center font-dosis text-4xl md:text-5xl ">
         <Animated
           id="aboutContact"
           text={t("title")}

@@ -107,7 +107,7 @@ const ContactMe = ({ labelName, labelEmail, labelMessage, button }: Props) => {
           ></textarea>
         </div>
         <div>
-          <button className="hover:shadow-form rounded-md py-3 px-8 text-base font-laila bg-secondary dark:bg-primary text-primary hover:text-white dark:hover:text-black dark:text-secondary  outline-none cursor-pointer hover:bg-stone-700 dark:hover:bg-stone-400 shadow-xl dark:shadow-stone-900">
+          <button className="hover:shadow-form rounded-md py-2 md:py-3 px-5 md:px-8 text-base font-laila bg-secondary dark:bg-primary text-primary hover:text-white dark:hover:text-black dark:text-secondary  outline-none cursor-pointer hover:bg-stone-700 dark:hover:bg-stone-400 shadow-xl dark:shadow-stone-900">
             {button}
           </button>
         </div>

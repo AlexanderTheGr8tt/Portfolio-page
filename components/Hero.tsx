@@ -25,27 +25,33 @@ const Hero = () => {
           />
         </div>
 
-        <div className="flex flex-col gap-10 md:gap-14 lg:gap-20 max-lg:max-w-[400px]">
-          <h1 className="text-center font-dosis text-4xl md:text-[44px] lg:text-[55px] pt-12">
-            {t("title")}{" "}
-            <Animated
-              id="heroTitle"
-              text={t("name")}
-              style="font-bold"
-              effectType="underline"
-              color="#831843"
-            />
-          </h1>
+        <div className="flex flex-col gap-8 md:gap-14 lg:gap-20 max-lg:max-w-[400px]">
+          <div className="flex flex-col md:gap-5 lg:gap-7 mx-8 sm">
+            <h1 className="flex justify-center sm:justify-start text-center font-dosis text-4xl md:text-[44px] lg:text-[55px] ">
+              {t("title")}
+            </h1>
+            <h1 className="flex justify-center sm:justify-end text-center font-dosis text-4xl md:text-[44px] lg:text-[55px] ">
+              <Animated
+                id="heroTitle"
+                text={t("name")}
+                style="font-bold lg:pb-2"
+                effectType="underline"
+                color="#831843"
+              />
+            </h1>
+          </div>
 
           <p className="font-laila text-center px-4 leading-8 lg:leading-10 text-lg md:text-[21px] lg:text-2xl max-w-[453px] md:max-w-xl">
+            {t("description")}
+          </p>
+          <p className="font-laila text-center text-lg md:text-[21px] lg:text-2xl">
             <Animated
               id="heroTitle"
-              text={t("job")}
-              style="font-bold text-primary"
-              effectType="highlight"
+              text={t("inspiring")}
+              style="font-bold text-secondary dark:text-primary"
+              effectType="underline"
               color="#115e59"
             />
-            {t("description")}
           </p>
         </div>
       </div>

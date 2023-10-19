@@ -1,43 +1,69 @@
 {
   "Hero": {
-    "title": "Hello! I'm ",
-    "name": "Aleksander",
-    "job": "Web Developer, ",
-    "description": "from Poznań. I offer the best projects resulting in quality work."
+    "title": "Hello there!",
+    "name": "I'm Aleksander",
+    "inspiring": "Turning Passion into Profession",
+    "description": "Passionate web developer, ready to bring your digital dreams to life through code and creativity."
   },
   "About": {
     "title": "About Me",
-    "description": "Web developer, with extensive knowledge and years of experience, working in web technologies and Ui / Ux design, delivering quality work.",
-    "contact": "Contact Me",
-    "github": "View GitHub"
+    "description": {
+      "p-1": "Dedicated to the art of web development, I've channeled my passion into a dynamic career change, embarking on this journey in August 2022. With a versatile skill set I'm eager to craft modern, boundary-pushing web applications.",
+      "p-2": "In addition to traditional web development, I'm excited about the world of web3 and its groundbreaking potential.",
+      "p-3": "Beyond code, I'm fueled by an active life and the culinary arts. These passions drive my commitment to excellence and innovation. Let's collaborate and turn digital dreams into reality, one line of code at a time.",
+      "p-4": "Welcome to my world of web development, where the creative possibilities are limitless."
+    },
+    "contact": "Email",
+    "github": "GitHub",
+    "skills": "HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind CSS, MongoDB, Node.js, Git/GitHub"
   },
   "Projects": {
     "title": "Projects",
     "project-1": {
-      "title": "Dev OverFlow",
-      "tech": "Next.js, React, Tailwind, TypeScript",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae doloremque quas tempora molestias.",
+      "title": "Portfolio Page",
+      "tech": "Next.js, Tailwind CSS, React, TypeScript",
+      "description": "Next.js SSR app with Tailwind CSS, React, TypeScript, email handling internationalisation, and accessibility-focused UI components.",
+      "descriptionLong": {
+        "p1": "The Portfolio Page is a server-side rendering (SSR) web application created with Next.js, providing a dynamic and optimized user experience. It incorporates a range of modern technologies, including Next.js for SSR and routing, ensuring fast and SEO-friendly content delivery.",
+        "p2": "The UI is crafted using the NextUI framework for polished and responsive design. The project integrates internationalization through Next-Intl and dynamic theming using Next-Themes. For form handling, it employs React Hook Form for efficient data management. Email functionality is enabled via Nodemailer, allowing user communication.",
+        "p3": "Accessibility and visual elements are improved with the use of Rough Notation and Tailwind CSS animations. The combination of these technologies and libraries culminates in a visually appealing and performant portfolio website tailored for showcasing my skills and projects effectively."
+      },
       "live": "Live View",
       "code": "View Code"
     },
     "project-2": {
-      "title": "Threads",
-      "tech": "Next.js, React, Tailwind, TypeScript",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae doloremque quas tempora molestias.",
+      "title": "Dev OverFlow",
+      "tech": "Next.js, Tailwind CSS, React, TypeScript, MongoDB, Clerk",
+      "description": "A StackOverflow-like web app with Next.js, MongoDB, Clerk for user authentication, and real-time updates via Svix-webhook, ensuring an interactive user experience.",
+      "descriptionLong": {
+        "p1": "The Dev OverFlow project is a StackOverflow-like application developed with Next.js, featuring a wide array of technologies. It utilizes Next.js for building a robust front-end, Tailwind CSS for flexible styling, and MongoDB for data storage. User authentication is implemented through Clerk, ensuring secure access.",
+        "p2": "The project incorporates a rich text editor powered by TinyMCE, enabling users to create and edit content easily. Real-time updates and communication are facilitated by Svix-webhook, enhancing user interaction. Various components from the shadcn/ui library, such as dialog boxes, icons, labels, menus, select inputs, and tabs, enhance the user interface.",
+        "p3": "Additionally, the project leverages Zod for handling data validation, ensuring data integrity and reliability. In summary, Dev OverFlow is a sophisticated web application tailored for a StackOverflow-like experience, combining cutting-edge technologies for a seamless user experience."
+      },
       "live": "Live View",
       "code": "View Code"
     },
     "project-3": {
-      "title": "Filmpire",
-      "tech": "Next.js, React, Tailwind, TypeScript",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae doloremque quas tempora molestias.",
+      "title": "Threads",
+      "tech": "Next.js, Tailwind CSS, React, TypeScript, MongoDB, Clerk",
+      "description": "A Next.js web app with Clerk for user authentication, real-time communication via Svix, and a visually appealing UI enhanced by shadcn/ui components.",
+      "descriptionLong": {
+        "p1": "Threads is a web application inspired by Meta's Threads/Twitter (now X), offering streamlined communication and interaction. It's built with Next.js, providing server-side rendering and routing for optimized performance. The app integrates Clerk for user authentication and themes, ensuring a secure and customizable experience.",
+        "p2": "UI elements such as labels, tabs, and slots are enhanced using shadcn/ui components. User interactions and animations are improved with Framer Motion. Threads leverages Mongoose and MongoDB for data management and storage, while forms are efficiently handled with React Hook Form.",
+        "p3": "Real-time communication is facilitated through Svix, enhancing user engagement. Tailwind CSS and Tailwind CSS animations contribute to the visual appeal and responsiveness of the application. All of these technologies come together to create a user-friendly and feature-rich communication platform."
+      },
       "live": "Live View",
       "code": "View Code"
     },
     "project-4": {
-      "title": "Sumz",
-      "tech": "Next.js, React, Tailwind, TypeScript",
-      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae doloremque quas tempora molestias.",
+      "title": "Filmpire",
+      "tech": "React, JavaScript, API, React Router, Redux Toolkit, Axios",
+      "description": "A React web app with TMDB API for movies, Alan AI voice control, and Material-UI for an immersive movie discovery experience.",
+      "descriptionLong": {
+        "p1": "Filmpire is a React web application that harnesses the power of the TMDB API to provide users with information about movies. It's built using Vite, offering a fast and efficient development experience.",
+        "p2": "The app integrates voice control through Alan AI, allowing users to interact with the application using English language commands. The user interface is crafted with Material-UI, featuring icons and styles.",
+        "p3": "State management is achieved with Redux Toolkit, and data retrieval is handled through Axios. The application utilizes React Router for seamless navigation. This comprehensive set of technologies and integrations ensures an immersive and interactive movie discovery experience for users."
+      },
       "live": "Live View",
       "code": "View Code"
     }

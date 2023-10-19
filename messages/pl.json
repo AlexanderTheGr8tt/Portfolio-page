@@ -1,50 +1,76 @@
 {
   "Hero": {
-    "title": "Cześć Jestem ",
-    "name": "Olek",
-    "job": "Web Developer, ",
-    "description": "z Poznania. Tworzę projekty z wysoką jakością pracy."
+    "title": "Cześć! Jestem ",
+    "name": "Aleksander",
+    "inspiring": "Turning Passion into Profession",
+    "description": "Zapalony web developer gotowy ożywić twoje cyfrowe marzenia kodem i kreatywnością."
   },
   "About": {
-    "title": "Trochę o mnie",
-    "description": "Programista stron internetowych, z rozległą wiedzą i wieloletnim doświadczeniem, pracujący w technologiach internetowych i projektowaniu Ui/Ux, zapewniający wysoką jakość pracy.",
-    "contact": "Wyślij email!",
-    "github": "Mój GitHub"
+    "title": "O mnie",
+    "description": {
+      "p-1": "Oddany sztuce web developmentu, zamieniłem moją pasję w dynamiczną zmianę kariery, wyruszając w tę podróż w sierpniu 2022 roku. Z wszechstronnym zestawem umiejętności jestem gotów tworzyć nowoczesne i innowacyjne aplikacje internetowe.",
+      "p-2": "Oprócz standardowego tworzenia stron internetowych, ekscytuje mnie świat web3 i jego rewolucyjny potencjał.",
+      "p-3": "Poza kodowaniem, inspirację czerpię z aktywnego trybu życia i sztuki kulinarnej. Te pasje napędzają moje dążenie do doskonałości i innowacyjności. Zainspirujmy się razem i zamieńmy cyfrowe marzenia w rzeczywistość, kodując je krok po kroku.",
+      "p-4": "Zapraszam do świata, gdzie kreatywność nie ma ograniczeń."
+    },
+    "contact": "Email",
+    "github": "GitHub",
+    "skills": "HTML, CSS, JavaScript, TypeScript, React, Next.js, Tailwind CSS, MongoDB, Node.js, Git/GitHub"
   },
   "Projects": {
     "title": "Projekty",
     "project-1": {
-      "title": "Dev OverFlow",
-      "tech": "Next.js, React, Tailwind, TypeScript",
-      "description": "W następnym tygodniu prezydent Andrzej Duda zaprosi do siebie po kolei wszystkie komitety na konsultacje w sprawie pierwszego kroku.",
-      "live": "Zobacz Live",
-      "code": "Sprawdź Kod"
+      "title": "Moje Portfolio",
+      "tech": "Next.js, Tailwind CSS, React, TypeScript",
+      "description": "Aplikacja oparta na Next.js z SSR oferuje dwie wersje językowe, wykorzystuje Tailwind CSS, React oraz TypeScript, umożliwiając jednocześnie wysyłanie maili. To elastyczne i wielofunkcyjne rozwiązanie dostosowane do wielu potrzeb.",
+      "descriptionLong": {
+        "p1": "Moje Portfolio to aplikacja stworzona za pomocą Next.js, zapewnia to dynamiczne i zoptymalizowane doświadczenie użytkowania. Aplikacja ta wykorzystuje szereg nowoczesnych technologii, w tym renderowanie po stronie serwera.",
+        "p2": "UI jest tworzony za pomocą NextUI framework, co zapewnia elegancki i responsywny design. Projekt integruje dwa języki za pomocą Next-Intl i dynamiczne dostosowywanie tematu strony za pomocą Next-Themes. Do obsługi formularzy wykorzystuje się React Hook Form w celu efektywnego zarządzania danymi. Funkcja obsługi poczty jest włączona za pomocą Nodemailer, co umożliwia komunikację z użytkownikiem.",
+        "p3": "Dostępność i elementy wizualne są poprawione za pomocą narzędzi Rough Notation i animacji w Tailwind CSS. Połączenie tych technologii i bibliotek daje efektowną i wydajną stronę internetową dostosowaną do prezentacji moich umiejętności i projektów w skuteczny sposób."
+      },
+      "live": "Podgląd",
+      "code": "Zobacz kod"
     },
     "project-2": {
-      "title": "Threads",
-      "tech": "Next.js, React, Tailwind, TypeScript",
-      "description": "W następnym tygodniu prezydent Andrzej Duda zaprosi do siebie po kolei wszystkie komitety na konsultacje w sprawie pierwszego kroku.",
-      "live": "Zobacz Live",
-      "code": "Sprawdź Kod"
+      "title": "Dev OverFlow",
+      "tech": "Next.js, Tailwind CSS, React, TypeScript, MongoDB, Clerk",
+      "description": "Aplikacja w stylu StackOverflow z Next.js, MongoDB, Clerk, i aktualizacjami w czasie rzeczywistym za pomocą Svix-webhook, zapewniająca interaktywne doświadczenie użytkownika.",
+      "descriptionLong": {
+        "p1": "Projekt Dev OverFlow to aplikacja internetowa w stylu StackOverflow stworzona za pomocą Next.j i wykorzystująca szereg technologii. Do budowy wydajnego front-endu użyliśmy React, Tailwind CSS do elastycznego stylizacji oraz MongoDB do przechowywania danych. Uwierzytelnianie użytkownika jest realizowane za pomocą Clerk, co zapewnia bezpieczny dostęp.",
+        "p2": "Projekt zawiera bogaty edytor tekstu zasilany przez TinyMCE, co umożliwia użytkownikowi tworzenie treści w prosty sposób. Aktualizacje w czasie rzeczywistym są ułatwione przez Svix-webhook, co poprawia interakcję użytkownika. Różne komponenty z biblioteki shadcn/ui, takie jak okna dialogowe, ikony, etykiety, menu, pola wyboru i karty, poprawiają interfejs użytkownika.",
+        "p3": "Dodatkowo projekt wykorzystuje Zod do walidacji danych, co zapewnia integralność i niezawodność. Podsumowując, Dev OverFlow to zaawansowana aplikacja internetowa dostosowana do doświadczenia w stylu StackOverflow, łącząca nowoczesne technologie w celu zapewnienia płynnego doświadczenia użytkownika."
+      },
+      "live": "Podgląd",
+      "code": "Zobacz kod"
     },
     "project-3": {
-      "title": "Filmpire",
-      "tech": "Next.js, React, Tailwind, TypeScript",
-      "description": "W następnym tygodniu prezydent Andrzej Duda zaprosi do siebie po kolei wszystkie komitety na konsultacje w sprawie pierwszego kroku.",
-      "live": "Zobacz Live",
-      "code": "Sprawdź Kod"
+      "title": "Threads",
+      "tech": "Next.js, Tailwind CSS, React, TypeScript, MongoDB, Clerk",
+      "description": "Aplikacja Next.js z uwierzytelnianiem Clerk, komunikacją w czasie rzeczywistym przez Svix i atrakcyjnym interfejsem z komponentami shadcn/ui.",
+      "descriptionLong": {
+        "p1": "Threads to aplikacja internetowa inspirowana Threads/Twitter (obecnie X), oferująca uproszczoną komunikację i interakcję. Zbudowana z użyciem Next.js, zapewnia routing i renderowanie po stronie serwera dla zoptymalizowanej wydajności. Aplikacja integruje Clerk w celu uwierzytelniania użytkownika, co zapewnia bezpieczne i dostosowane do potrzeb doświadczenie.",
+        "p2": "Elementy UI, takie jak etykiety i karty, są stworzone za pomocą komponentów shadcn/ui. Interakcje i animacje użytkownika są ulepszone za pomocą Framer Motion. Threads wykorzystuje Mongoose i MongoDB do zarządzania danymi, a formularze obsługiwane za pomocą React Hook Form.",
+        "p3": "Komunikację w czasie rzeczywistym ułatwia Svix, co wzmacnia zaangażowanie użytkownika. Tailwind CSS przyczyniaja się do atrakcyjności wizualnej i responsywności aplikacji. Wszystkie te technologie łączą się, tworząc przyjazną dla użytkownika i bogatą w funkcje platformę komunikacyjną."
+      },
+      "live": "Podgląd",
+      "code": "Zobacz kod"
     },
     "project-4": {
-      "title": "Sumz",
-      "tech": "Next.js, React, Tailwind, TypeScript",
-      "description": "W następnym tygodniu prezydent Andrzej Duda zaprosi do siebie po kolei wszystkie komitety na konsultacje w sprawie pierwszego kroku.",
-      "live": "Zobacz Live",
-      "code": "Sprawdź Kod"
+      "title": "Filmpire",
+      "tech": "React, JavaScript, API, React Router, Redux Toolkit, Axios",
+      "description": "Aplikacja React z API TMDB, sterowaniem głosowym Alan AI i interfejsem Material-UI, zapewniająca bogate doświadczenie w odkrywaniu filmów.",
+      "descriptionLong": {
+        "p1": "Filmpire to aplikacja internetowa stowrzona w React, która wykorzystuje moc API TMDB do dostarczania użytkownikom informacji o filmach. Zbudowana jest za pomocą Vite, co zapewnia szybkie doświadczenie programowania.",
+        "p2": "Aplikacja integruje sterowanie głosowe za pomocą Alan AI, pozwalając użytkownikom interagować z aplikacją za pomocą poleceń w języku angielskim. Interfejs użytkownika jest tworzony za pomocą Material-UI.",
+        "p3": "Zarządzanie state jest osiągnięte za pomocą narzędzi Redux Toolkit, a pobieranie danych odbywa się za pomocą Axios. Aplikacja wykorzystuje React Router do płynnej nawigacji. Ten kompleksowy zestaw technologii i integracji zapewnia użytkownikom immersywne i interaktywne doświadczenie w odkrywaniu filmów."
+      },
+      "live": "Podgląd",
+      "code": "Zobacz kod"
     }
   },
   "Contact": {
     "title": "Porozmawiajmy!",
-    "name": "Imię i nazwisko",
+    "name": "Imię i Nazwisko",
     "email": "Email",
     "message": "Wiadomość",
     "button": "Wyślij"

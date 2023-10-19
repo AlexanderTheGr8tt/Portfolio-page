@@ -2,6 +2,7 @@ import React from "react";
 import ProjectCard from "./shared/ProjectCard";
 import Animated from "./shared/Animated";
 import { useTranslations } from "next-intl";
+import "../messages/pl.json";
 
 const Projects = () => {
   const t = useTranslations("Projects");
@@ -28,6 +29,9 @@ const Projects = () => {
           github="https://github.com/AlexanderTheGr8tt/stack-overflow-nextjs13"
           buttonLive={t("project-1.live")}
           buttonGithub={t("project-1.code")}
+          p1={t("project-1.descriptionLong.p1")}
+          p2={t("project-1.descriptionLong.p2")}
+          p3={t("project-1.descriptionLong.p3")}
         />
 
         <ProjectCard
@@ -39,6 +43,9 @@ const Projects = () => {
           github="https://github.com/AlexanderTheGr8tt/threads_app"
           buttonLive={t("project-2.live")}
           buttonGithub={t("project-2.code")}
+          p1={t("project-2.descriptionLong.p1")}
+          p2={t("project-2.descriptionLong.p2")}
+          p3={t("project-2.descriptionLong.p3")}
         />
 
         <ProjectCard
@@ -50,6 +57,9 @@ const Projects = () => {
           github="https://github.com/AlexanderTheGr8tt/Filmpire"
           buttonLive={t("project-3.live")}
           buttonGithub={t("project-3.code")}
+          p1={t("project-3.descriptionLong.p1")}
+          p2={t("project-3.descriptionLong.p2")}
+          p3={t("project-3.descriptionLong.p3")}
         />
 
         <ProjectCard
@@ -61,6 +71,9 @@ const Projects = () => {
           github="https://github.com/AlexanderTheGr8tt/OpenAI_Summarizer"
           buttonLive={t("project-4.live")}
           buttonGithub={t("project-4.code")}
+          p1={t("project-4.descriptionLong.p1")}
+          p2={t("project-4.descriptionLong.p2")}
+          p3={t("project-4.descriptionLong.p3")}
         />
       </div>
     </section>
@@ -68,3 +81,71 @@ const Projects = () => {
 };
 
 export default Projects;
+
+{
+  /* <h3 className="font-laila text-[2.5rem]">Projects</h3>
+      <p className="font-mulish text-[1.25rem]">
+        Click (Generate) to create a new font pairing, (Lock) to lock fonts
+      </p>
+      <p className="font-mulish text-[1.25rem]">
+        Click (Generate) to create a new font pairing, (Lock) to lock fonts
+      </p>
+      <p className="font-mulish text-[1.25rem]">
+        Click (Generate) to create a new font pairing, (Lock) to lock fonts
+      </p> */
+}
+
+{
+  /* <div className="pt-20 ">
+        <div className="flex flex-col items-center w-80  rounded-2xl bg-[#fff7ed] text-primary dark:text-secondary">
+          <div className="rounded-lg mx-5 py-5 ">
+            <Image
+              src="/assets/img/projekt-1.png"
+              alt="project 1"
+              width={300}
+              height={1}
+              className="rounded-t-2xl border-2 border-black"
+            />
+          </div>
+
+          <div className="text-left w-full px-5">
+            <h3 className="text-2xl">Stack Overflow</h3>
+          </div>
+
+          <div className="flex flex-col justify-center py-4 mx-5">
+            <div className="">
+              <p className="text-base">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Molestiae doloremque quas tempora molestias veritatis enim quasi
+                illo quo excepturi debitis voluptatum eius vitae.
+              </p>
+            </div>
+
+            <div className="flex justify-between pt-3 ">
+              <p>Next.js</p>
+              <p>React</p>
+              <p>Tailwind</p>
+            </div>
+          </div>
+
+          <div className="flex flex-row w-full pb-5 px-5">
+            <div className="flex-1 text-center">
+              <Link
+                href="https://stack-overflow-nextjs13-git-017topresults-alexanderthegr8tt.vercel.app/"
+                className="text-purple"
+              >
+                Web
+              </Link>
+            </div>
+            <div className="flex-1 text-center">
+              <Link
+                href="https://github.com/AlexanderTheGr8tt"
+                className="text-purple"
+              >
+                Github
+              </Link>
+            </div>
+          </div>
+        </div>
+      </div> */
+}

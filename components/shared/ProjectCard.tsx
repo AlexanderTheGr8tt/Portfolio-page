@@ -3,6 +3,7 @@ import Link from "next/link";
 import React, { useState } from "react";
 import Animated from "./Animated";
 import ImageModal from "./ImageModal";
+import TextModal from "./TextModal";
 
 interface Props {
   img: string;
@@ -13,6 +14,9 @@ interface Props {
   github: string;
   buttonLive: string;
   buttonGithub: string;
+  p1?: string;
+  p2?: string;
+  p3?: string;
 }
 
 const ProjectCard = ({
@@ -24,11 +28,14 @@ const ProjectCard = ({
   github,
   buttonLive,
   buttonGithub,
+  p1,
+  p2,
+  p3,
 }: Props) => {
   const [modalVisible, setModalVisible] = useState(false);
 
   const openModal = () => {
-    if (window.matchMedia("(min-width: 640px)").matches) setModalVisible(true);
+    setModalVisible(true);
   };
 
   const closeModal = () => {
@@ -54,6 +61,9 @@ const ProjectCard = ({
         <p className="pt-3 font-laila text-base md:text-lg lg:text-xl text-neutral-600 dark:text-neutral-200">
           {description}
         </p>
+        <span>
+          <TextModal p1={p1} p2={p2} p3={p3} />
+        </span>
       </div>
 
       <div className="flex flex-1 flex-row w-full pb-5 px-5 font-inter text-secondary dark:text-primary">
