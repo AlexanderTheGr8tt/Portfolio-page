@@ -2,8 +2,10 @@ import Image from "next/image";
 import Link from "next/link";
 import React from "react";
 import Animated from "./shared/Animated";
+import { useTranslations } from "next-intl";
 
 const About = () => {
+  const t = useTranslations("About");
   return (
     <section
       className="w-full min-h-screen flex justify-center my-10"
@@ -14,7 +16,7 @@ const About = () => {
           <h2 className="text-center font-dosis text-4xl md:text-5xl max-md:pb-12 ">
             <Animated
               id="aboutContact"
-              text="About Me"
+              text={t("title")}
               style="font-bold"
               effectType="underline"
               color="#831843"
@@ -23,16 +25,14 @@ const About = () => {
 
           <div className="flex flex-col px-3 md:gap-5">
             <p className="font-laila max-md:leading-8 md:leading-9 lg:leading-10  text-lg md:text-[22px] lg:text-2xl max-w-lg md:max-w-xl pb-5">
-              Web developer, with extensive knowledge and years of experience,
-              working in web technologies and Ui / Ux design, delivering quality
-              work.
+              {t("description")}
             </p>
 
             <div className="font-mulish leading-7 md:leading-10 text-base md:text-xl md:max-w-xl">
               <p className="text-primary">
                 <Animated
                   id="aboutContact"
-                  text="  My Skills:  "
+                  text="Skills:  "
                   style="font-bold text-xl md:text-2xl"
                   effectType="highlight"
                   color="#115e59"
@@ -52,7 +52,7 @@ const About = () => {
             <Link href="#contact">
               <Animated
                 id="aboutContact"
-                text="Contact Me!"
+                text={t("contact")}
                 style="text-base md:text-lg hover:text-[#b087de]"
                 effectType="box"
                 color="#8B41E0"
@@ -61,7 +61,7 @@ const About = () => {
             <Link href="https://github.com/AlexanderTheGr8tt">
               <Animated
                 id="aboutContact"
-                text="My GitHub!"
+                text={t("github")}
                 style="text-base md:text-lg hover:text-[#b087de]"
                 effectType="box"
                 color="#8B41E0"

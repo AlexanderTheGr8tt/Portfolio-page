@@ -2,7 +2,10 @@
 
 import { navLinks } from "@/constants/constant";
 import Link from "next/link";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
+import { ThemeSwitcher } from "../theme/ThemeSwitcher";
+import MobileNav from "./MobileNav";
+import LocaleSwitcher from "./LocaleSwitcher";
 
 const NavContent = () => {
   const [activeSection, setActiveSection] = useState<string | null>(null);
@@ -21,6 +24,8 @@ const NavContent = () => {
         const section = entry.target as HTMLElement;
         if (entry.isIntersecting) {
           setActiveSection(section.id);
+          // Update the URL hash fragment based on the active section
+          window.history.replaceState(null, "", `#${section.id}`);
         }
       });
     }, options);
@@ -34,19 +39,24 @@ const NavContent = () => {
       observer.disconnect();
     };
   }, []);
+
   return (
-    <div className="max-sm:hidden gap-5 flex justify-between">
-      {navLinks.map((link) => (
-        <Link
-          key={link.name}
-          href={link.link}
-          className={`${
-            activeSection === link.des && " text-[#ca8a04] font-bold"
-          } onHoverLine`}
-        >
-          <p className="text-xl md:text-2xl font-dosis ">{link.name}</p>
-        </Link>
-      ))}
+    <div className="flex gap-8 items-center">
+      <div className="max-sm:hidden gap-5 flex justify-between">
+        {navLinks.map((link) => (
+          <Link
+            key={link.name}
+            href={link.link}
+            className={`${
+              activeSection === link.des && " text-[#ca8a04] font-bold"
+            } onHoverLine`}
+          >
+            <p className="text-xl md:text-2xl font-dosis ">{link.name}</p>
+          </Link>
+        ))}
+      </div>
+
+      <LocaleSwitcher />
     </div>
   );
 };

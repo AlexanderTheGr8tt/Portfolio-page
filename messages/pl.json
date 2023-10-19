@@ -1,0 +1,52 @@
+{
+  "Hero": {
+    "title": "Cześć Jestem ",
+    "name": "Olek",
+    "job": "Web Developer, ",
+    "description": "z Poznania. Tworzę projekty z wysoką jakością pracy."
+  },
+  "About": {
+    "title": "Trochę o mnie",
+    "description": "Programista stron internetowych, z rozległą wiedzą i wieloletnim doświadczeniem, pracujący w technologiach internetowych i projektowaniu Ui/Ux, zapewniający wysoką jakość pracy.",
+    "contact": "Wyślij email!",
+    "github": "Sprawdź GitHub"
+  },
+  "Projects": {
+    "title": "Projekty",
+    "project-1": {
+      "title": "Dev OverFlow",
+      "tech": "Next.js, React, Tailwind, TypeScript",
+      "description": "W następnym tygodniu prezydent Andrzej Duda zaprosi do siebie po kolei wszystkie komitety na konsultacje w sprawie pierwszego kroku.",
+      "live": "Zobacz Live",
+      "code": "Sprawdź Kod"
+    },
+    "project-2": {
+      "title": "Threads",
+      "tech": "Next.js, React, Tailwind, TypeScript",
+      "description": "W następnym tygodniu prezydent Andrzej Duda zaprosi do siebie po kolei wszystkie komitety na konsultacje w sprawie pierwszego kroku.",
+      "live": "Zobacz Live",
+      "code": "Sprawdź Kod"
+    },
+    "project-3": {
+      "title": "Filmpire",
+      "tech": "Next.js, React, Tailwind, TypeScript",
+      "description": "W następnym tygodniu prezydent Andrzej Duda zaprosi do siebie po kolei wszystkie komitety na konsultacje w sprawie pierwszego kroku.",
+      "live": "Zobacz Live",
+      "code": "Sprawdź Kod"
+    },
+    "project-4": {
+      "title": "Sumz",
+      "tech": "Next.js, React, Tailwind, TypeScript",
+      "description": "W następnym tygodniu prezydent Andrzej Duda zaprosi do siebie po kolei wszystkie komitety na konsultacje w sprawie pierwszego kroku.",
+      "live": "Zobacz Live",
+      "code": "Sprawdź Kod"
+    }
+  },
+  "Contact": {
+    "title": "Porozmawiajmy!",
+    "name": "Imię i nazwisko",
+    "email": "Email",
+    "message": "Wiadomość",
+    "button": "Wyślij"
+  }
+}

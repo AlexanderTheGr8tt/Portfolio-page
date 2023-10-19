@@ -11,7 +11,14 @@ export type FormData = {
   message: string;
 };
 
-const ContactMe: FC = () => {
+interface Props {
+  labelName: string;
+  labelEmail: string;
+  labelMessage: string;
+  button: string;
+}
+
+const ContactMe = ({ labelName, labelEmail, labelMessage, button }: Props) => {
   const {
     register,
     handleSubmit,
@@ -40,7 +47,8 @@ const ContactMe: FC = () => {
             htmlFor="name"
             className="mb-3 text-base font-laila text-secondary dark:text-primary flex justify-between items-center"
           >
-            Full Name{""}
+            {labelName}
+            {""}
             <span>
               {""}{" "}
               {errors.name && (
@@ -51,7 +59,7 @@ const ContactMe: FC = () => {
           <input
             type="text"
             placeholder="Full Name"
-            className="w-full resize-none rounded-md border border-gray-300 dark:border-gray-600 bg-white dark:bg-neutral-700 py-3 px-6 text-base font-laila text-gray-700 dark:text-primary outline-none focus:border-purple-500 focus:shadow-md"
+            className="w-full resize-none rounded-md border border-gray-300 dark:border-gray-600 bg-white dark:bg-neutral-700 py-3 px-6 text-base font-laila text-gray-700 dark:text-primary outline-none focus:border-purple-500 focus:shadow-md shadow-lg dark:shadow-stone-900"
             {...register("name", { required: "Full Name is required" })}
           />
         </div>
@@ -60,7 +68,7 @@ const ContactMe: FC = () => {
             htmlFor="email"
             className="mb-3  text-base font-laila text-secondary dark:text-primary flex justify-between items-center"
           >
-            Email Address{" "}
+            {labelEmail}{" "}
             <span>
               {""}
               {errors.email && (
@@ -71,7 +79,7 @@ const ContactMe: FC = () => {
           <input
             type="email"
             placeholder="example@domain.com"
-            className="w-full resize-none rounded-md border border-gray-300 dark:border-gray-600 bg-white dark:bg-neutral-700 py-3 px-6 text-base font-laila text-gray-700 dark:text-primary outline-none focus:border-purple-500 focus:shadow-md"
+            className="w-full resize-none rounded-md border border-gray-300 dark:border-gray-600 bg-white dark:bg-neutral-700 py-3 px-6 text-base font-laila text-gray-700 dark:text-primary outline-none focus:border-purple-500 focus:shadow-md shadow-lg dark:shadow-stone-900"
             {...register("email", { required: "Email is required" })}
           />
         </div>
@@ -81,7 +89,7 @@ const ContactMe: FC = () => {
             htmlFor="message"
             className="mb-3 text-base font-laila text-secondary dark:text-primary flex justify-between items-center"
           >
-            Message{" "}
+            {labelMessage}{" "}
             <span>
               {" "}
               {errors.message && (
@@ -94,13 +102,13 @@ const ContactMe: FC = () => {
           <textarea
             rows={4}
             placeholder="Type your message"
-            className="w-full resize-none rounded-md border border-gray-300 dark:border-gray-600 bg-white dark:bg-neutral-700 py-3 px-6 text-base font-laila text-gray-700 dark:text-primary outline-none focus:border-purple-500 focus:shadow-md"
+            className="w-full resize-none rounded-md border border-gray-300 dark:border-gray-600 bg-white dark:bg-neutral-700 py-3 px-6 text-base font-laila text-gray-700 dark:text-primary outline-none focus:border-purple-500 focus:shadow-md shadow-lg dark:shadow-stone-900"
             {...register("message", { required: "Message is required" })}
           ></textarea>
         </div>
         <div>
-          <button className="hover:shadow-form rounded-md py-3 px-8 text-base font-laila bg-secondary dark:bg-primary text-primary hover:text-white dark:hover:text-black dark:text-secondary  outline-none cursor-pointer hover:bg-stone-700 dark:hover:bg-stone-400">
-            Send
+          <button className="hover:shadow-form rounded-md py-3 px-8 text-base font-laila bg-secondary dark:bg-primary text-primary hover:text-white dark:hover:text-black dark:text-secondary  outline-none cursor-pointer hover:bg-stone-700 dark:hover:bg-stone-400 shadow-xl dark:shadow-stone-900">
+            {button}
           </button>
         </div>
       </form>

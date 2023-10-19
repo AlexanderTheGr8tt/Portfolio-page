@@ -11,6 +11,8 @@ interface Props {
   description: string;
   website: string;
   github: string;
+  buttonLive: string;
+  buttonGithub: string;
 }
 
 const ProjectCard = ({
@@ -20,6 +22,8 @@ const ProjectCard = ({
   description,
   website,
   github,
+  buttonLive,
+  buttonGithub,
 }: Props) => {
   const [modalVisible, setModalVisible] = useState(false);
 
@@ -57,7 +61,7 @@ const ProjectCard = ({
           <Link href={website}>
             <Animated
               id="projectButton"
-              text="Try it Live!"
+              text={buttonLive}
               style="text-black hover:text-gray-500 p-1 lg:text-lg"
               effectType="highlight"
               color="#ffd54f"
@@ -67,7 +71,7 @@ const ProjectCard = ({
           <Link href={github}>
             <Animated
               id="projectButton"
-              text="See the Code"
+              text={buttonGithub}
               style="text-black hover:text-gray-500 p-1 lg:text-lg"
               effectType="highlight"
               color="#ffd54f"

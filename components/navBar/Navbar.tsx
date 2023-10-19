@@ -19,15 +19,13 @@ const Navbar = () => {
           </span>
         </Link>
 
-        <div className="flex gap-14 items-center">
+        <div className="flex gap-8 items-center">
           <NavContent />
-
-          <div className="flex items-center gap-5">
-            <p className="text-xl">PL/EN</p>
-
+          <div className="w-8">
             <ThemeSwitcher />
-            <MobileNav />
           </div>
+
+          <MobileNav />
         </div>
       </div>
     </div>

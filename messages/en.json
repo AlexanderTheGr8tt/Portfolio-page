@@ -1,0 +1,52 @@
+{
+  "Hero": {
+    "title": "Hello! I'm ",
+    "name": "Aleksander",
+    "job": "Web Developer, ",
+    "description": "from Poznań. I offer the best projects resulting in quality work."
+  },
+  "About": {
+    "title": "About Me",
+    "description": "Web developer, with extensive knowledge and years of experience, working in web technologies and Ui / Ux design, delivering quality work.",
+    "contact": "Contact Me",
+    "github": "View GitHub"
+  },
+  "Projects": {
+    "title": "Projects",
+    "project-1": {
+      "title": "Dev OverFlow",
+      "tech": "Next.js, React, Tailwind, TypeScript",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae doloremque quas tempora molestias.",
+      "live": "Live View",
+      "code": "View Code"
+    },
+    "project-2": {
+      "title": "Threads",
+      "tech": "Next.js, React, Tailwind, TypeScript",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae doloremque quas tempora molestias.",
+      "live": "Live View",
+      "code": "View Code"
+    },
+    "project-3": {
+      "title": "Filmpire",
+      "tech": "Next.js, React, Tailwind, TypeScript",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae doloremque quas tempora molestias.",
+      "live": "Live View",
+      "code": "View Code"
+    },
+    "project-4": {
+      "title": "Sumz",
+      "tech": "Next.js, React, Tailwind, TypeScript",
+      "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestiae doloremque quas tempora molestias.",
+      "live": "Live View",
+      "code": "View Code"
+    }
+  },
+  "Contact": {
+    "title": "Let's Talk!",
+    "name": "Full Name",
+    "email": "Email",
+    "message": "Message",
+    "button": "Send"
+  }
+}
