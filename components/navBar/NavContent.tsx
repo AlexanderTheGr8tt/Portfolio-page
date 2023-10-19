@@ -1,14 +1,16 @@
 "use client";
 
-import { navLinks } from "@/constants/constant";
+import { navLinksEn, navLinksPl } from "@/constants/constant";
 import Link from "next/link";
 import React, { useEffect, useRef, useState } from "react";
 import { ThemeSwitcher } from "../theme/ThemeSwitcher";
 import MobileNav from "./MobileNav";
 import LocaleSwitcher from "./LocaleSwitcher";
+import { usePathname } from "next/navigation";
 
 const NavContent = () => {
   const [activeSection, setActiveSection] = useState<string | null>(null);
+  const pathname = usePathname();
 
   useEffect(() => {
     const sections = document.querySelectorAll("section");
@@ -40,10 +42,12 @@ const NavContent = () => {
     };
   }, []);
 
+  const links = pathname === "/" ? navLinksEn : navLinksPl;
+
   return (
     <div className="flex gap-8 items-center">
       <div className="max-sm:hidden gap-5 flex justify-between">
-        {navLinks.map((link) => (
+        {links.map((link) => (
           <Link
             key={link.name}
             href={link.link}

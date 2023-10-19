@@ -4,7 +4,6 @@ import { usePathname } from "next/navigation";
 
 export default function LocaleSwitcher() {
   const pathname = usePathname();
-  console.log(pathname);
 
   return (
     <div className="flex gap-1 text-xl font-dosis text-secondary dark:text-primary">

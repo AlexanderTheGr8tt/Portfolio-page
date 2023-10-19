@@ -1,7 +1,7 @@
 "use client";
 
 import React, { useEffect, useState } from "react";
-import { navLinks } from "../../constants/constant";
+import { navLinksEn, navLinksPl } from "../../constants/constant";
 import {
   Sheet,
   SheetClose,
@@ -12,9 +12,11 @@ import {
 } from "@/components/ui/sheet";
 import Link from "next/link";
 import { X } from "lucide-react";
+import { usePathname } from "next/navigation";
 
 const MobileNav = () => {
   const [activeSection, setActiveSection] = useState<string | null>(null);
+  const pathname = usePathname();
 
   useEffect(() => {
     const sections = document.querySelectorAll("section");
@@ -43,6 +45,9 @@ const MobileNav = () => {
       observer.disconnect();
     };
   }, []);
+
+  const links = pathname === "/" ? navLinksEn : navLinksPl;
+
   return (
     <div className="sm:hidden">
       <Sheet>
@@ -61,7 +66,7 @@ const MobileNav = () => {
           </SheetHeader>
           <SheetClose asChild>
             <div className="flex flex-col gap-12 pt-16 items-center ">
-              {navLinks.map((link) => (
+              {links.map((link) => (
                 <SheetClose asChild key={link.name}>
                   <Link
                     href={link.link}
