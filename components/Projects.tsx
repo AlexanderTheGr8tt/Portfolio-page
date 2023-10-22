@@ -25,8 +25,8 @@ const Projects = () => {
           title={t("project-1.title")}
           tech={t("project-1.tech")}
           description={t("project-1.description")}
-          website="https://stack-overflow-nextjs13-git-017topresults-alexanderthegr8tt.vercel.app/"
-          github="https://github.com/AlexanderTheGr8tt/stack-overflow-nextjs13"
+          website="https://portfolio-page-git-multi-language-alexanderthegr8tt.vercel.app/"
+          github="https://github.com/AlexanderTheGr8tt/Portfolio-page/tree/multi-language"
           buttonLive={t("project-1.live")}
           buttonGithub={t("project-1.code")}
           p1={t("project-1.descriptionLong.p1")}
@@ -39,8 +39,8 @@ const Projects = () => {
           title={t("project-2.title")}
           tech={t("project-2.tech")}
           description={t("project-2.description")}
-          website="https://threads-app-two-nu.vercel.app/"
-          github="https://github.com/AlexanderTheGr8tt/threads_app"
+          website="https://stack-overflow-nextjs13-git-017topresults-alexanderthegr8tt.vercel.app/"
+          github="https://github.com/AlexanderTheGr8tt/stack-overflow-nextjs13/tree/017_top_results"
           buttonLive={t("project-2.live")}
           buttonGithub={t("project-2.code")}
           p1={t("project-2.descriptionLong.p1")}
@@ -53,8 +53,8 @@ const Projects = () => {
           title={t("project-3.title")}
           tech={t("project-3.tech")}
           description={t("project-3.description")}
-          website="https://genuine-travesseiro-d66d3c.netlify.app/"
-          github="https://github.com/AlexanderTheGr8tt/Filmpire"
+          website="https://threads-app-two-nu.vercel.app/"
+          github="https://github.com/AlexanderTheGr8tt/threads_app"
           buttonLive={t("project-3.live")}
           buttonGithub={t("project-3.code")}
           p1={t("project-3.descriptionLong.p1")}
@@ -67,8 +67,8 @@ const Projects = () => {
           title={t("project-4.title")}
           tech={t("project-4.tech")}
           description={t("project-4.description")}
-          website="https://lovely-jelly-8136f0.netlify.app/"
-          github="https://github.com/AlexanderTheGr8tt/OpenAI_Summarizer"
+          website="https://genuine-travesseiro-d66d3c.netlify.app/"
+          github="https://github.com/AlexanderTheGr8tt/Filmpire"
           buttonLive={t("project-4.live")}
           buttonGithub={t("project-4.code")}
           p1={t("project-4.descriptionLong.p1")}

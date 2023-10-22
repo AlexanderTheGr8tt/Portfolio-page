@@ -31,8 +31,8 @@ const TextModal = ({ p1, p2, p3, p4, style }: Props) => {
           className="px-5 fixed top-0 left-0 w-full h-full flex items-center justify-center bg-black bg-opacity-60 z-50"
           onClick={closeModal}
         >
-          <div className="bg-secondary dark:bg-primary text-primary dark:text-secondary rounded">
-            <p className="mx-5 my-5 font-laila text-sm md:text-base lg:text-lg max-w-lg md:max-w-xl pb-3">
+          <div className="bg-secondary dark:bg-primary text-primary dark:text-secondary rounded flex justify-center">
+            <p className=" relative mx-5 p-4 mt-5 font-mulish text-sm md:text-base lg:text-lg max-w-lg md:max-w-xl">
               {p1}
               <br />
               <br />
@@ -42,19 +42,13 @@ const TextModal = ({ p1, p2, p3, p4, style }: Props) => {
               {p3}
               <br />
               <br />
-              {p4}
-              <br />
-              <br />
 
-              <div className="flex justify-center bg-white shadow-lg rounded-lg">
-                <button
-                  onClick={closeModal}
-                  className="absolute m-2 text-primary dark:text-secondary text-xl hover:text-gray-700 cursor-pointer"
-                >
-                  X
-                </button>
+              <div
+                onClick={closeModal}
+                className="flex justify-center text-primary dark:text-secondary text-xl hover:text-gray-700 cursor-pointer"
+              >
+                X
               </div>
-              <br />
             </p>
           </div>
         </div>

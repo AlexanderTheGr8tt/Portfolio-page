@@ -45,7 +45,7 @@ const ContactMe = ({ labelName, labelEmail, labelMessage, button }: Props) => {
         <div className="mb-5">
           <label
             htmlFor="name"
-            className="mb-3 text-base font-laila text-secondary dark:text-primary flex justify-between items-center"
+            className="mb-3 text-base font-mulish text-secondary dark:text-primary flex justify-between items-center"
           >
             {labelName}
             {""}
@@ -59,14 +59,14 @@ const ContactMe = ({ labelName, labelEmail, labelMessage, button }: Props) => {
           <input
             type="text"
             placeholder="Full Name"
-            className="w-full resize-none rounded-md border border-gray-300 dark:border-gray-600 bg-white dark:bg-neutral-700 py-3 px-6 text-base font-laila text-gray-700 dark:text-primary outline-none focus:border-purple-500 focus:shadow-md shadow-lg dark:shadow-stone-900"
+            className="w-full resize-none rounded-md border border-gray-300 dark:border-gray-600 bg-white dark:bg-neutral-700 py-3 px-6 text-base font-mulish text-gray-700 dark:text-primary outline-none focus:border-purple-500 focus:shadow-md shadow-lg dark:shadow-stone-900"
             {...register("name", { required: "Full Name is required" })}
           />
         </div>
         <div className="mb-5">
           <label
             htmlFor="email"
-            className="mb-3  text-base font-laila text-secondary dark:text-primary flex justify-between items-center"
+            className="mb-3  text-base font-mulish text-secondary dark:text-primary flex justify-between items-center"
           >
             {labelEmail}{" "}
             <span>
@@ -79,7 +79,7 @@ const ContactMe = ({ labelName, labelEmail, labelMessage, button }: Props) => {
           <input
             type="email"
             placeholder="example@domain.com"
-            className="w-full resize-none rounded-md border border-gray-300 dark:border-gray-600 bg-white dark:bg-neutral-700 py-3 px-6 text-base font-laila text-gray-700 dark:text-primary outline-none focus:border-purple-500 focus:shadow-md shadow-lg dark:shadow-stone-900"
+            className="w-full resize-none rounded-md border border-gray-300 dark:border-gray-600 bg-white dark:bg-neutral-700 py-3 px-6 text-base font-mulish text-gray-700 dark:text-primary outline-none focus:border-purple-500 focus:shadow-md shadow-lg dark:shadow-stone-900"
             {...register("email", { required: "Email is required" })}
           />
         </div>
@@ -87,7 +87,7 @@ const ContactMe = ({ labelName, labelEmail, labelMessage, button }: Props) => {
         <div className="mb-5">
           <label
             htmlFor="message"
-            className="mb-3 text-base font-laila text-secondary dark:text-primary flex justify-between items-center"
+            className="mb-3 text-base font-mulish text-secondary dark:text-primary flex justify-between items-center"
           >
             {labelMessage}{" "}
             <span>
@@ -102,12 +102,12 @@ const ContactMe = ({ labelName, labelEmail, labelMessage, button }: Props) => {
           <textarea
             rows={4}
             placeholder="Type your message"
-            className="w-full resize-none rounded-md border border-gray-300 dark:border-gray-600 bg-white dark:bg-neutral-700 py-3 px-6 text-base font-laila text-gray-700 dark:text-primary outline-none focus:border-purple-500 focus:shadow-md shadow-lg dark:shadow-stone-900"
+            className="w-full resize-none rounded-md border border-gray-300 dark:border-gray-600 bg-white dark:bg-neutral-700 py-3 px-6 text-base font-mulish text-gray-700 dark:text-primary outline-none focus:border-purple-500 focus:shadow-md shadow-lg dark:shadow-stone-900"
             {...register("message", { required: "Message is required" })}
           ></textarea>
         </div>
         <div>
-          <button className="hover:shadow-form rounded-md py-2 md:py-3 px-5 md:px-8 text-base font-laila bg-secondary dark:bg-primary text-primary hover:text-white dark:hover:text-black dark:text-secondary  outline-none cursor-pointer hover:bg-stone-700 dark:hover:bg-stone-400 shadow-xl dark:shadow-stone-900">
+          <button className="hover:shadow-form rounded-md py-1 md:py-2 px-3 md:px-6 text-lg font-mulish bg-secondary dark:bg-primary text-primary hover:text-white dark:hover:text-black dark:text-secondary  outline-none cursor-pointer hover:bg-stone-700 dark:hover:bg-stone-400 shadow-xl dark:shadow-stone-900">
             {button}
           </button>
         </div>

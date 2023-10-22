@@ -3,7 +3,7 @@
     "title": "Cześć! Jestem ",
     "name": "Aleksander",
     "inspiring": "Turning Passion into Profession",
-    "description": "Zapalony web developer gotowy ożywić twoje cyfrowe marzenia kodem i kreatywnością."
+    "description": "Zapalony Web Developer gotowy ożywić twoje cyfrowe marzenia kodem i kreatywnością."
   },
   "About": {
     "title": "O mnie",
@@ -22,10 +22,10 @@
     "project-1": {
       "title": "Moje Portfolio",
       "tech": "Next.js, Tailwind CSS, React, TypeScript",
-      "description": "Aplikacja oparta na Next.js z SSR oferuje dwie wersje językowe, wykorzystuje Tailwind CSS, React oraz TypeScript, umożliwiając jednocześnie wysyłanie maili. To elastyczne i wielofunkcyjne rozwiązanie dostosowane do wielu potrzeb.",
+      "description": "Portfolio zostało stworzone w Next.js jest dostępne w dwóch wersjach językowych, wykorzystuje Tailwind CSS, React oraz TypeScript, oferując jednocześnie wysyłanie maili.",
       "descriptionLong": {
-        "p1": "Moje Portfolio to aplikacja stworzona za pomocą Next.js, zapewnia to dynamiczne i zoptymalizowane doświadczenie użytkowania. Aplikacja ta wykorzystuje szereg nowoczesnych technologii, w tym renderowanie po stronie serwera.",
-        "p2": "UI jest tworzony za pomocą NextUI framework, co zapewnia elegancki i responsywny design. Projekt integruje dwa języki za pomocą Next-Intl i dynamiczne dostosowywanie tematu strony za pomocą Next-Themes. Do obsługi formularzy wykorzystuje się React Hook Form w celu efektywnego zarządzania danymi. Funkcja obsługi poczty jest włączona za pomocą Nodemailer, co umożliwia komunikację z użytkownikiem.",
+        "p1": "Moje Portfolio to strona stworzona w Next.js, zapewnia to dynamiczne i zoptymalizowane doświadczenie użytkowania. Aplikacja ta wykorzystuje szereg nowoczesnych technologii, w tym renderowanie po stronie serwera.",
+        "p2": "UI tworzony jest z pomocą shadcn/ui, co zapewnia elegancki i responsywny design. Projekt integruje dwa języki za pomocą Next-Intl i dynamiczne dostosowywanie motywu strony za pomocą Next-Themes. Do obsługi formularzy wykorzystuje się React Hook Form w celu efektywnego zarządzania danymi. Funkcja obsługi poczty jest włączona za pomocą Nodemailer, co umożliwia komunikację z developerem.",
         "p3": "Dostępność i elementy wizualne są poprawione za pomocą narzędzi Rough Notation i animacji w Tailwind CSS. Połączenie tych technologii i bibliotek daje efektowną i wydajną stronę internetową dostosowaną do prezentacji moich umiejętności i projektów w skuteczny sposób."
       },
       "live": "Podgląd",
@@ -36,9 +36,9 @@
       "tech": "Next.js, Tailwind CSS, React, TypeScript, MongoDB, Clerk",
       "description": "Aplikacja w stylu StackOverflow z Next.js, MongoDB, Clerk, i aktualizacjami w czasie rzeczywistym za pomocą Svix-webhook, zapewniająca interaktywne doświadczenie użytkownika.",
       "descriptionLong": {
-        "p1": "Projekt Dev OverFlow to aplikacja internetowa w stylu StackOverflow stworzona za pomocą Next.j i wykorzystująca szereg technologii. Do budowy wydajnego front-endu użyliśmy React, Tailwind CSS do elastycznego stylizacji oraz MongoDB do przechowywania danych. Uwierzytelnianie użytkownika jest realizowane za pomocą Clerk, co zapewnia bezpieczny dostęp.",
-        "p2": "Projekt zawiera bogaty edytor tekstu zasilany przez TinyMCE, co umożliwia użytkownikowi tworzenie treści w prosty sposób. Aktualizacje w czasie rzeczywistym są ułatwione przez Svix-webhook, co poprawia interakcję użytkownika. Różne komponenty z biblioteki shadcn/ui, takie jak okna dialogowe, ikony, etykiety, menu, pola wyboru i karty, poprawiają interfejs użytkownika.",
-        "p3": "Dodatkowo projekt wykorzystuje Zod do walidacji danych, co zapewnia integralność i niezawodność. Podsumowując, Dev OverFlow to zaawansowana aplikacja internetowa dostosowana do doświadczenia w stylu StackOverflow, łącząca nowoczesne technologie w celu zapewnienia płynnego doświadczenia użytkownika."
+        "p1": "Projekt Dev OverFlow to aplikacja internetowa w stylu StackOverflow stworzona w Next.js. Do budowy front-endu użyliśmy React, Tailwind CSS do stylizacji oraz MongoDB do przechowywania danych. Uwierzytelnianie użytkownika jest realizowane za pomocą Clerk, co zapewnia bezpieczny dostęp dla kadego uytkownika.",
+        "p2": "Projekt zawiera bogaty edytor tekstu zasilany przez TinyMCE, co umożliwia użytkownikowi tworzenie treści w prosty sposób. Aktualizacje w czasie rzeczywistym są ułatwione przez Svix-webhook, co poprawia interakcję z aplikacją, a komponenty z biblioteki shadcn/ui, poprawiają interfejs użytkownika.",
+        "p3": "Dodatkowo projekt wykorzystuje Zod do walidacji danych, co zapewnia niezawodność. Podsumowując, Dev OverFlow to zaawansowana aplikacja internetowa dostosowana do doświadczenia w stylu StackOverflow, łącząca nowoczesne technologie w celu zapewnienia płynnego doświadczenia użytkownika."
       },
       "live": "Podgląd",
       "code": "Zobacz kod"
@@ -46,11 +46,11 @@
     "project-3": {
       "title": "Threads",
       "tech": "Next.js, Tailwind CSS, React, TypeScript, MongoDB, Clerk",
-      "description": "Aplikacja Next.js z uwierzytelnianiem Clerk, komunikacją w czasie rzeczywistym przez Svix i atrakcyjnym interfejsem z komponentami shadcn/ui.",
+      "description": "Wykorzystuje Next.js z uwierzytelnianiem Clerk, komunikacją w czasie rzeczywistym przez Svix i atrakcyjnym interfejsem z komponentami shadcn/ui.",
       "descriptionLong": {
-        "p1": "Threads to aplikacja internetowa inspirowana Threads/Twitter (obecnie X), oferująca uproszczoną komunikację i interakcję. Zbudowana z użyciem Next.js, zapewnia routing i renderowanie po stronie serwera dla zoptymalizowanej wydajności. Aplikacja integruje Clerk w celu uwierzytelniania użytkownika, co zapewnia bezpieczne i dostosowane do potrzeb doświadczenie.",
-        "p2": "Elementy UI, takie jak etykiety i karty, są stworzone za pomocą komponentów shadcn/ui. Interakcje i animacje użytkownika są ulepszone za pomocą Framer Motion. Threads wykorzystuje Mongoose i MongoDB do zarządzania danymi, a formularze obsługiwane za pomocą React Hook Form.",
-        "p3": "Komunikację w czasie rzeczywistym ułatwia Svix, co wzmacnia zaangażowanie użytkownika. Tailwind CSS przyczyniaja się do atrakcyjności wizualnej i responsywności aplikacji. Wszystkie te technologie łączą się, tworząc przyjazną dla użytkownika i bogatą w funkcje platformę komunikacyjną."
+        "p1": "Threads to aplikacja internetowa inspirowana Threads/Twitter (obecnie X), oferująca uproszczoną komunikację i interakcję. Zbudowana w Next.js, zapewnia routing i renderowanie po stronie serwera dla zoptymalizowanej wydajności. Aplikacja integruje Clerk w celu uwierzytelniania użytkownika, co zapewnia bezpieczne użytkowanie.",
+        "p2": " Niektóre elementy UI są stworzone za pomocą komponentów shadcn/ui. Interakcje i animacje użytkownika są ulepszone za pomocą Framer Motion. Threads wykorzystuje Mongoose i MongoDB do zarządzania danymi, a formularze obsługiwane za pomocą React Hook Form.",
+        "p3": "Komunikację w czasie rzeczywistym ułatwia Svix. Tailwind CSS przyczynia się do atrakcyjności wizualnej i responsywności aplikacji. Wszystkie te technologie łączą się, tworząc przyjazną dla użytkownika i bogatą w funkcje platformę komunikacyjną."
       },
       "live": "Podgląd",
       "code": "Zobacz kod"
@@ -58,11 +58,11 @@
     "project-4": {
       "title": "Filmpire",
       "tech": "React, JavaScript, API, React Router, Redux Toolkit, Axios",
-      "description": "Aplikacja React z API TMDB, sterowaniem głosowym Alan AI i interfejsem Material-UI, zapewniająca bogate doświadczenie w odkrywaniu filmów.",
+      "description": "Opierająca się na React strona z API TMDB, sterowaniem głosowym Alan AI i interfejsem Material-UI, zapewniająca bogate doświadczenie w odkrywaniu filmów.",
       "descriptionLong": {
-        "p1": "Filmpire to aplikacja internetowa stowrzona w React, która wykorzystuje moc API TMDB do dostarczania użytkownikom informacji o filmach. Zbudowana jest za pomocą Vite, co zapewnia szybkie doświadczenie programowania.",
-        "p2": "Aplikacja integruje sterowanie głosowe za pomocą Alan AI, pozwalając użytkownikom interagować z aplikacją za pomocą poleceń w języku angielskim. Interfejs użytkownika jest tworzony za pomocą Material-UI.",
-        "p3": "Zarządzanie state jest osiągnięte za pomocą narzędzi Redux Toolkit, a pobieranie danych odbywa się za pomocą Axios. Aplikacja wykorzystuje React Router do płynnej nawigacji. Ten kompleksowy zestaw technologii i integracji zapewnia użytkownikom immersywne i interaktywne doświadczenie w odkrywaniu filmów."
+        "p1": "Filmpire to aplikacja internetowa stowrzona w React, która wykorzystuje moc API TMDB do dostarczania użytkownikom informacji o filmach. Zbudowana jest z pomocą React, co zapewnia szybkie doświadczenie programowania.",
+        "p2": "Strona integruje sterowanie głosowe za pomocą Alan AI, pozwalając użytkownikowi wydawać polecenia w języku angielskim. Interfejs użytkownika jest tworzony za pomocą Material-UI.",
+        "p3": "Zarządzanie state odbywa się przy pomocy Redux Toolkit, a pobieranie danych poprzez Axios. Strona wykorzystuje również React Router do płynnej nawigacji. Ten kompleksowy zestaw technologii i integracji zapewnia użytkownikom świetne doświadczenie w odkrywaniu filmów."
       },
       "live": "Podgląd",
       "code": "Zobacz kod"

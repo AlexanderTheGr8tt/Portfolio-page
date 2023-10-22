@@ -58,7 +58,7 @@ const ProjectCard = ({
           <span>Tech: </span>
           {tech}
         </p>
-        <p className="pt-3 font-laila text-base md:text-lg lg:text-xl text-neutral-600 dark:text-neutral-200">
+        <p className="pt-3 font-mulish text-base lg:text-lg text-neutral-600 dark:text-neutral-200">
           {description}
         </p>
         <span>
@@ -66,7 +66,7 @@ const ProjectCard = ({
         </span>
       </div>
 
-      <div className="flex flex-1 flex-row w-full pb-5 px-5 font-inter text-secondary dark:text-primary">
+      <div className="flex flex-1 flex-row w-full pb-5 px-5 font-mulish text-secondary dark:text-primary">
         <div className="flex-1 flex  gap-8">
           <Link href={website}>
             <Animated

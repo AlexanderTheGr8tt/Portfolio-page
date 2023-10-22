@@ -26,23 +26,22 @@ const About = () => {
 
           <div className="flex flex-col px-3 gap-5">
             <div>
-              <p className="font-laila text-sm sm:text-base lg:text-lg max-w-lg md:max-w-xl md:pb-3">
+              <p className="font-mulish text-sm sm:text-base lg:text-lg max-w-lg md:max-w-xl md:pb-3">
                 {t("description.p-1")}
               </p>
               <TextModal
                 p1={t("description.p-1")}
                 p2={t("description.p-2")}
                 p3={t("description.p-3")}
-                p4={t("description.p-3")}
                 style="md:hidden"
               />
-              <p className="max-md:hidden font-laila text-sm md:text-base lg:text-lg max-w-lg md:max-w-xl pb-3">
+              <p className="max-md:hidden font-mulish text-sm md:text-base lg:text-lg max-w-lg md:max-w-xl pb-3">
                 {t("description.p-2")}
               </p>
-              <p className="max-md:hidden font-laila text-sm md:text-base lg:text-lg max-w-lg md:max-w-xl pb-3">
+              <p className="max-md:hidden font-mulish text-sm md:text-base lg:text-lg max-w-lg md:max-w-xl pb-3">
                 {t("description.p-3")}
               </p>
-              <p className="max-md:hidden font-laila text-sm md:text-base lg:text-lg max-w-lg md:max-w-xl pb-3">
+              <p className="max-md:hidden font-mulish text-sm md:text-base lg:text-lg max-w-lg md:max-w-xl pb-3">
                 {t("description.p-4")}
               </p>
             </div>
