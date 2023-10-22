@@ -28,31 +28,31 @@
         "p2": "UI tworzony jest z pomocą shadcn/ui, co zapewnia elegancki i responsywny design. Projekt integruje dwa języki za pomocą Next-Intl i dynamiczne dostosowywanie motywu strony za pomocą Next-Themes. Do obsługi formularzy wykorzystuje się React Hook Form w celu efektywnego zarządzania danymi. Funkcja obsługi poczty jest włączona za pomocą Nodemailer, co umożliwia komunikację z developerem.",
         "p3": "Dostępność i elementy wizualne są poprawione za pomocą narzędzi Rough Notation i animacji w Tailwind CSS. Połączenie tych technologii i bibliotek daje efektowną i wydajną stronę internetową dostosowaną do prezentacji moich umiejętności i projektów w skuteczny sposób."
       },
-      "live": "Podgląd",
+      "live": "Podgląd live",
       "code": "Zobacz kod"
     },
     "project-2": {
       "title": "Dev OverFlow",
       "tech": "Next.js, Tailwind CSS, React, TypeScript, MongoDB, Clerk",
-      "description": "Aplikacja w stylu StackOverflow z Next.js, MongoDB, Clerk, i aktualizacjami w czasie rzeczywistym za pomocą Svix-webhook, zapewniająca interaktywne doświadczenie użytkownika.",
+      "description": "Aplikacja w stylu StackOverflow z Next.js, MongoDB, Clerk, z aktualizacjami w czasie rzeczywistym za pomocą Svix-webhook.",
       "descriptionLong": {
         "p1": "Projekt Dev OverFlow to aplikacja internetowa w stylu StackOverflow stworzona w Next.js. Do budowy front-endu użyliśmy React, Tailwind CSS do stylizacji oraz MongoDB do przechowywania danych. Uwierzytelnianie użytkownika jest realizowane za pomocą Clerk, co zapewnia bezpieczny dostęp dla kadego uytkownika.",
         "p2": "Projekt zawiera bogaty edytor tekstu zasilany przez TinyMCE, co umożliwia użytkownikowi tworzenie treści w prosty sposób. Aktualizacje w czasie rzeczywistym są ułatwione przez Svix-webhook, co poprawia interakcję z aplikacją, a komponenty z biblioteki shadcn/ui, poprawiają interfejs użytkownika.",
         "p3": "Dodatkowo projekt wykorzystuje Zod do walidacji danych, co zapewnia niezawodność. Podsumowując, Dev OverFlow to zaawansowana aplikacja internetowa dostosowana do doświadczenia w stylu StackOverflow, łącząca nowoczesne technologie w celu zapewnienia płynnego doświadczenia użytkownika."
       },
-      "live": "Podgląd",
+      "live": "Podgląd live",
       "code": "Zobacz kod"
     },
     "project-3": {
       "title": "Threads",
       "tech": "Next.js, Tailwind CSS, React, TypeScript, MongoDB, Clerk",
-      "description": "Wykorzystuje Next.js z uwierzytelnianiem Clerk, komunikacją w czasie rzeczywistym przez Svix i atrakcyjnym interfejsem z komponentami shadcn/ui.",
+      "description": "Wykorzystano Next.js z uwierzytelnianiem Clerk, komunikacją w czasie rzeczywistym przez Svix i atrakcyjnym interfejsem z komponentami shadcn/ui.",
       "descriptionLong": {
         "p1": "Threads to aplikacja internetowa inspirowana Threads/Twitter (obecnie X), oferująca uproszczoną komunikację i interakcję. Zbudowana w Next.js, zapewnia routing i renderowanie po stronie serwera dla zoptymalizowanej wydajności. Aplikacja integruje Clerk w celu uwierzytelniania użytkownika, co zapewnia bezpieczne użytkowanie.",
         "p2": " Niektóre elementy UI są stworzone za pomocą komponentów shadcn/ui. Interakcje i animacje użytkownika są ulepszone za pomocą Framer Motion. Threads wykorzystuje Mongoose i MongoDB do zarządzania danymi, a formularze obsługiwane za pomocą React Hook Form.",
         "p3": "Komunikację w czasie rzeczywistym ułatwia Svix. Tailwind CSS przyczynia się do atrakcyjności wizualnej i responsywności aplikacji. Wszystkie te technologie łączą się, tworząc przyjazną dla użytkownika i bogatą w funkcje platformę komunikacyjną."
       },
-      "live": "Podgląd",
+      "live": "Podgląd live",
       "code": "Zobacz kod"
     },
     "project-4": {
@@ -64,7 +64,7 @@
         "p2": "Strona integruje sterowanie głosowe za pomocą Alan AI, pozwalając użytkownikowi wydawać polecenia w języku angielskim. Interfejs użytkownika jest tworzony za pomocą Material-UI.",
         "p3": "Zarządzanie state odbywa się przy pomocy Redux Toolkit, a pobieranie danych poprzez Axios. Strona wykorzystuje również React Router do płynnej nawigacji. Ten kompleksowy zestaw technologii i integracji zapewnia użytkownikom świetne doświadczenie w odkrywaniu filmów."
       },
-      "live": "Podgląd",
+      "live": "Podgląd live",
       "code": "Zobacz kod"
     }
   },

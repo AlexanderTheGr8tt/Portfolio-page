@@ -28,7 +28,7 @@
         "p2": "The UI is crafted using the NextUI framework for polished and responsive design. The project integrates internationalization through Next-Intl and dynamic theming using Next-Themes. For form handling, it employs React Hook Form for efficient data management. Email functionality is enabled via Nodemailer, allowing user communication.",
         "p3": "Accessibility and visual elements are improved with the use of Rough Notation and Tailwind CSS animations. The combination of these technologies and libraries culminates in a visually appealing and performant portfolio website tailored for showcasing my skills and projects effectively."
       },
-      "live": "Live View",
+      "live": "View Website",
       "code": "View Code"
     },
     "project-2": {
@@ -40,7 +40,7 @@
         "p2": "The project incorporates a rich text editor powered by TinyMCE, enabling users to create and edit content easily. Real-time updates and communication are facilitated by Svix-webhook, enhancing user interaction. Various components from the shadcn/ui library, such as dialog boxes, icons, labels, menus, select inputs, and tabs, enhance the user interface.",
         "p3": "Additionally, the project leverages Zod for handling data validation, ensuring data integrity and reliability. In summary, Dev OverFlow is a sophisticated web application tailored for a StackOverflow-like experience, combining cutting-edge technologies for a seamless user experience."
       },
-      "live": "Live View",
+      "live": "View Website",
       "code": "View Code"
     },
     "project-3": {
@@ -52,7 +52,7 @@
         "p2": "UI elements such as labels, tabs, and slots are enhanced using shadcn/ui components. User interactions and animations are improved with Framer Motion. Threads leverages Mongoose and MongoDB for data management and storage, while forms are efficiently handled with React Hook Form.",
         "p3": "Real-time communication is facilitated through Svix, enhancing user engagement. Tailwind CSS and Tailwind CSS animations contribute to the visual appeal and responsiveness of the application. All of these technologies come together to create a user-friendly and feature-rich communication platform."
       },
-      "live": "Live View",
+      "live": "View Website",
       "code": "View Code"
     },
     "project-4": {
@@ -64,7 +64,7 @@
         "p2": "The app integrates voice control through Alan AI, allowing users to interact with the application using English language commands. The user interface is crafted with Material-UI, featuring icons and styles.",
         "p3": "State management is achieved with Redux Toolkit, and data retrieval is handled through Axios. The application utilizes React Router for seamless navigation. This comprehensive set of technologies and integrations ensures an immersive and interactive movie discovery experience for users."
       },
-      "live": "Live View",
+      "live": "View Website",
       "code": "View Code"
     }
   },

@@ -21,7 +21,7 @@ const laila = Laila({
 
 const mulish = Mulish({
   subsets: ["latin"],
-  weight: ["300"],
+  weight: ["500"],
   variable: "--font-mulish",
 });
 
@@ -35,14 +35,18 @@ type Props = {
 };
 
 export default function RootLayout({ children, params: { locale } }: Props) {
-  // Validate that the incoming `locale` parameter is valid
-  if (!locales.includes(locale as any)) notFound();
+  // // Validate that the incoming `locale` parameter is valid
+  // if (!locales.includes(locale as any)) notFound();
 
-  // Enable static rendering
-  unstable_setRequestLocale(locale);
+  // // Enable static rendering
+  // unstable_setRequestLocale(locale);
 
   return (
-    <html lang={locale} className="dark">
+    <html
+      lang="en"
+      // lang={locale}
+      className="dark"
+    >
       <body
         className={`${mulish.variable} ${laila.variable} ${dosis.variable}`}
       >

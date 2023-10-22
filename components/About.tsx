@@ -24,9 +24,9 @@ const About = () => {
             />
           </h2>
 
-          <div className="flex flex-col px-3 gap-5">
+          <div className="flex flex-col px-3 gap-3 md:gap-5 max-md:px-6">
             <div>
-              <p className="font-mulish text-sm sm:text-base lg:text-lg max-w-lg md:max-w-xl md:pb-3">
+              <p className="font-mulish text-base sm:text-base lg:text-lg max-w-lg md:max-w-xl md:pb-3">
                 {t("description.p-1")}
               </p>
               <TextModal
@@ -50,22 +50,20 @@ const About = () => {
               <p className="text-primary">
                 <Animated
                   id="aboutContact"
-                  text=" Skills:  "
-                  style="font-bold text-base sm:text-lg md:text-xl lg:text-2xl"
+                  text="  Skills:  "
+                  style="font-bold text-base sm:text-lg md:text-xl lg:text-xl"
                   effectType="highlight"
                   color="#115e59"
                 />
               </p>
-              {/* <span> </span> */}
-              <p className="text-sm sm:text-base md:text-lg lg:text-xl">
-                {t("skills")}
-              </p>
+
+              <p className="text-sm sm:text-base md:text-lg ">{t("skills")}</p>
             </div>
           </div>
         </div>
 
-        <div className="flex md:flex-col-reverse justify-center gap-5 sm:gap-16 px-3 pt-3 w-full md:w-auto ">
-          <div className="font-laila flex flex-col md:flex-row justify-center  gap-14 md:gap-10 w-28 md:w-full  ">
+        <div className="flex md:flex-col-reverse justify-center gap-5 sm:gap-16 px-3 pt-3 w-full md:w-auto max-md:px-6">
+          <div className="font-mulish flex flex-col md:flex-row justify-center  gap-14 md:gap-20 w-28 md:w-full  ">
             <Link href="#contact">
               <Animated
                 id="aboutContact"

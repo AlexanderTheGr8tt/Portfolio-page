@@ -41,14 +41,14 @@ const Hero = () => {
             </h1>
           </div>
 
-          <p className="font-laila text-center px-4 leading-8 lg:leading-10 text-lg md:text-[21px] lg:text-2xl max-w-[453px] md:max-w-xl">
+          <p className="font-mulish text-center px-4 leading-8 lg:leading-10 text-lg md:text-[21px] lg:text-2xl max-w-[453px] md:max-w-xl">
             {t("description")}
           </p>
           <p className="font-laila text-center text-lg md:text-[21px] lg:text-2xl">
             <Animated
               id="heroTitle"
               text={t("inspiring")}
-              style="font-bold text-secondary dark:text-primary"
+              style="text-secondary dark:text-primary"
               effectType="underline"
               color="#115e59"
             />

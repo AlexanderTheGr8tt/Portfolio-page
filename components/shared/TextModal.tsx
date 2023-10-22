@@ -1,6 +1,6 @@
 "use client";
 
-import { title } from "process";
+import { usePathname } from "next/navigation";
 import React, { useState } from "react";
 
 interface Props {
@@ -12,6 +12,7 @@ interface Props {
 }
 
 const TextModal = ({ p1, p2, p3, p4, style }: Props) => {
+  const pathname = usePathname();
   const [modalVisible, setModalVisible] = useState(false);
 
   const openModal = () => {
@@ -21,10 +22,19 @@ const TextModal = ({ p1, p2, p3, p4, style }: Props) => {
     setModalVisible(false);
   };
 
+  let seeMore;
+
+  if (pathname === "/") {
+    seeMore = "See more...";
+  }
+  if (pathname === "/pl") {
+    seeMore = "Zobacz więcej...";
+  }
+
   return (
     <div className={`${style} cursor-pointer`}>
-      <p onClick={openModal} className="text-[#ca8a04] text-sm">
-        See more...
+      <p onClick={openModal} className={` text-[#ca8a04] text-sm`}>
+        {seeMore}
       </p>
       {modalVisible && (
         <div
@@ -45,7 +55,7 @@ const TextModal = ({ p1, p2, p3, p4, style }: Props) => {
 
               <div
                 onClick={closeModal}
-                className="flex justify-center text-primary dark:text-secondary text-xl hover:text-gray-700 cursor-pointer"
+                className="flex justify-center text-primary dark:text-secondary text-xl cursor-pointer"
               >
                 X
               </div>
