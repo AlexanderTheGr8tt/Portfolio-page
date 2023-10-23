@@ -2,10 +2,6 @@ import "./globals.css";
 import type { Metadata } from "next";
 import { Dosis, Laila, Mulish } from "next/font/google";
 import { ThemeProvider } from "../../providers/ThemeProvider";
-import { useLocale } from "next-intl";
-import { notFound } from "next/navigation";
-import { locales } from "@/navigation";
-import { unstable_setRequestLocale } from "next-intl/server";
 
 const dosis = Dosis({
   subsets: ["latin"],
@@ -35,18 +31,8 @@ type Props = {
 };
 
 export default function RootLayout({ children, params: { locale } }: Props) {
-  // // Validate that the incoming `locale` parameter is valid
-  // if (!locales.includes(locale as any)) notFound();
-
-  // // Enable static rendering
-  // unstable_setRequestLocale(locale);
-
   return (
-    <html
-      lang="en"
-      // lang={locale}
-      className="dark"
-    >
+    <html lang="en" className="dark">
       <body
         className={`${mulish.variable} ${laila.variable} ${dosis.variable}`}
       >

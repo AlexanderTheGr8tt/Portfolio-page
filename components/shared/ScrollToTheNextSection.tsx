@@ -1,6 +1,5 @@
 "use client";
 import { ChevronDown, ChevronUp } from "lucide-react";
-
 import React, { useEffect, useRef, useState } from "react";
 
 const sectionIds = ["home", "about", "projects", "contact"];
