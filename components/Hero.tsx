@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Link from "next/link";
+
 import Animated from "./shared/Animated";
 import { useTranslations } from "next-intl";
 

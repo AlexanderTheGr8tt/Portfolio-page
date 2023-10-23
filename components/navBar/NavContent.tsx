@@ -3,8 +3,6 @@
 import { navLinksEn, navLinksPl } from "@/constants/constant";
 import Link from "next/link";
 import React, { useEffect, useRef, useState } from "react";
-import { ThemeSwitcher } from "../theme/ThemeSwitcher";
-import MobileNav from "./MobileNav";
 import LocaleSwitcher from "./LocaleSwitcher";
 import { usePathname } from "next/navigation";
 
