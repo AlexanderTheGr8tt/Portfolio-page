@@ -4,6 +4,7 @@ import { useState } from "react";
 import { useForm } from "react-hook-form";
 import { sendEmail } from "@/lib/utils";
 import SuccessErrModal from "./shared/SuccessErrModal";
+import { usePathname } from "next/navigation";
 
 export type FormData = {
   name: string;
@@ -16,9 +17,16 @@ interface Props {
   labelEmail: string;
   labelMessage: string;
   button: string;
+  btnSending: string;
 }
 
-const ContactMe = ({ labelName, labelEmail, labelMessage, button }: Props) => {
+const ContactMe = ({
+  labelName,
+  labelEmail,
+  labelMessage,
+  button,
+  btnSending,
+}: Props) => {
   const {
     register,
     handleSubmit,
@@ -26,12 +34,15 @@ const ContactMe = ({ labelName, labelEmail, labelMessage, button }: Props) => {
   } = useForm<FormData>();
   const [isSuccess, setSuccess] = useState(false);
   const [isError, setError] = useState(false);
+  const [isSending, setIsSending] = useState(false);
 
   async function onSubmit(data: FormData) {
     try {
+      setIsSending(true);
       await sendEmail(data);
       // If sendEmail is successful, show a success modal
       setSuccess(true);
+      setIsSending(false);
     } catch (error) {
       // If sendEmail fails, show an error modal
       setError(true);
@@ -108,7 +119,7 @@ const ContactMe = ({ labelName, labelEmail, labelMessage, button }: Props) => {
         </div>
         <div>
           <button className="hover:shadow-form rounded-md py-1 md:py-2 px-3 md:px-6 text-lg font-mulish bg-secondary dark:bg-primary text-primary hover:text-white dark:hover:text-black dark:text-secondary  outline-none cursor-pointer hover:bg-stone-700 dark:hover:bg-stone-400 shadow-xl dark:shadow-stone-900">
-            {button}
+            {!isSending ? button : btnSending}
           </button>
         </div>
       </form>

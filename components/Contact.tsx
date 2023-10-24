@@ -25,6 +25,7 @@ const Contact = () => {
         labelEmail={t("email")}
         labelMessage={t("message")}
         button={t("button")}
+        btnSending={t("btnSending")}
       />
 
       <footer className="absolute bottom-5">

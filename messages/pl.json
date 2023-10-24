@@ -73,6 +73,7 @@
     "name": "Imię i Nazwisko",
     "email": "Email",
     "message": "Wiadomość",
-    "button": "Wyślij"
+    "button": "Wyślij",
+    "btnSending": "Wysyłam..."
   }
 }

@@ -73,6 +73,7 @@
     "name": "Full Name",
     "email": "Email",
     "message": "Message",
-    "button": "Send"
+    "button": "Send",
+    "btnSending": "Sending..."
   }
 }
